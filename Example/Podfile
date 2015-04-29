@@ -1,0 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+target 'currencyParser', :exclusive => true do
+  pod "currencyParser", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+end
