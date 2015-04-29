@@ -1,0 +1,20 @@
+PODS:
+  - currencyParser (0.1.0)
+  - Expecta (0.4.2)
+  - Specta (0.5.0)
+
+DEPENDENCIES:
+  - currencyParser (from `../`)
+  - Expecta
+  - Specta
+
+EXTERNAL SOURCES:
+  currencyParser:
+    :path: ../
+
+SPEC CHECKSUMS:
+  currencyParser: 24835fac7785f605665e976451a5338c034e0f46
+  Expecta: 78b4e8b0c8291fa4524d7f74016b6065c2e391ec
+  Specta: eb90708ed77569bbda089f8ead10bb99b8e9489e
+
+COCOAPODS: 0.36.3
