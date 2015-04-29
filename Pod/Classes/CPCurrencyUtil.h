@@ -10,6 +10,8 @@
 
 @interface CPCurrencyUtil : NSObject
 
++(NSNumberFormatter*)setUpFormatter:(NSString*)localeID;
+
 +(NSString*)format:(float)value;
 +(NSString*)format:(float)value withLocaleID:(NSString*)localeID;
 

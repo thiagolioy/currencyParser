@@ -7,8 +7,27 @@
 //
 
 #import "CPCurrencyUtil.h"
+#import "NSString+CPCurrencyUtils.h"
 
 SpecBegin(InitialSpecs)
+
+describe(@"Category on NSString to make it easy conver Formatted Currency String to numbers", ^{
+    
+    it(@"should convert from currency to number", ^{
+        NSNumber *actual = [@"$2.50" currencyToNumber];
+        NSNumber *expected = [NSNumber numberWithFloat:2.5];
+        expect(expected).to.equal(actual);
+    });
+    
+    it(@"should convert from currency to number", ^{
+        NSNumber *actual = [@"R$2,50" currencyToNumberWithLocale:@"pt_BR"];
+        NSNumber *expected = [NSNumber numberWithFloat:2.5];
+        expect(expected).to.equal(actual);
+    });
+    
+    
+});
+
 
 describe(@"Should parse arguments to a currencyFormatted String", ^{
 

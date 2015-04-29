@@ -36,7 +36,6 @@
     return [[CPCurrencyUtil setUpFormatter:localeID] currencyCode];
 }
 
-#pragma mark - Private Methods
 
 +(NSNumberFormatter*)setUpFormatter:(NSString*)localeID{
     NSNumberFormatter *formatter = [[NSNumberFormatter alloc] init];

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E6F18741AF0755B006D03E7 /* NSString+CPCurrencyUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6F18731AF0755B006D03E7 /* NSString+CPCurrencyUtils.m */; };
 		3EEAFA9B1AF06477003B2110 /* CPCurrencyUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EEAFA9A1AF06477003B2110 /* CPCurrencyUtil.m */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -19,6 +20,9 @@
 /* Begin PBXFileReference section */
 		04938F920091D94EE9FB6CDC /* currencyParser.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = currencyParser.podspec; path = ../currencyParser.podspec; sourceTree = "<group>"; };
 		38BBC429117BCDE2BA2E0264 /* Pods-currencyParser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-currencyParser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-currencyParser/Pods-currencyParser.debug.xcconfig"; sourceTree = "<group>"; };
+		3E6F18721AF0755B006D03E7 /* NSString+CPCurrencyUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+CPCurrencyUtils.h"; path = "../Pod/Classes/NSString+CPCurrencyUtils.h"; sourceTree = "<group>"; };
+		3E6F18731AF0755B006D03E7 /* NSString+CPCurrencyUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+CPCurrencyUtils.m"; path = "../Pod/Classes/NSString+CPCurrencyUtils.m"; sourceTree = "<group>"; };
+		3E6F18751AF078C7006D03E7 /* CPCurrencyParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPCurrencyParser.h; path = ../Pod/Classes/CPCurrencyParser.h; sourceTree = "<group>"; };
 		3EEAFA991AF06477003B2110 /* CPCurrencyUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPCurrencyUtil.h; path = ../Pod/Classes/CPCurrencyUtil.h; sourceTree = "<group>"; };
 		3EEAFA9A1AF06477003B2110 /* CPCurrencyUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CPCurrencyUtil.m; path = ../Pod/Classes/CPCurrencyUtil.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* currencyParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = currencyParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +61,9 @@
 			children = (
 				3EEAFA991AF06477003B2110 /* CPCurrencyUtil.h */,
 				3EEAFA9A1AF06477003B2110 /* CPCurrencyUtil.m */,
+				3E6F18721AF0755B006D03E7 /* NSString+CPCurrencyUtils.h */,
+				3E6F18731AF0755B006D03E7 /* NSString+CPCurrencyUtils.m */,
+				3E6F18751AF078C7006D03E7 /* CPCurrencyParser.h */,
 			);
 			name = Lib;
 			sourceTree = "<group>";
@@ -238,6 +245,7 @@
 			files = (
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
 				3EEAFA9B1AF06477003B2110 /* CPCurrencyUtil.m in Sources */,
+				3E6F18741AF0755B006D03E7 /* NSString+CPCurrencyUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
