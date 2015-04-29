@@ -11,5 +11,11 @@
 @interface CPCurrencyUtil : NSObject
 
 +(NSString*)format:(float)value;
++(NSString*)format:(float)value withLocaleID:(NSString*)localeID;
 
++(NSString *)currencySymbol;
++(NSString *)currencySymbolFor:(NSString*)localeID;
+
++(NSString *)currencyCode;
++(NSString *)currencyCodeFor:(NSString*)localeID;
 @end
