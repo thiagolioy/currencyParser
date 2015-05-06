@@ -26,6 +26,6 @@ Pod::Spec.new do |s|
     'currencyParser' => ['Pod/Assets/*.png']
   }
 
-  s.public_header_files = 'Pod/Classes/CPCurrencyParser.h'
+  # s.public_header_files = 'Pod/Classes/*.h'
 
 end
