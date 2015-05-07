@@ -24,6 +24,10 @@ pod "currencyParser"
 
 thiagolioy, lioyufrj@gmail.com
 
+## Contributors
+
+csericksantos, erick.santos@concretesolutions.com.br
+
 ## License
 
 currencyParser is available under the MIT license. See the LICENSE file for more info.
