@@ -20,7 +20,7 @@ describe(@"Category on NSString to make it easy conver Formatted Currency String
     });
     
     it(@"should convert from currency to number", ^{
-        NSNumber *actual = [@"R$2,50" currencyToNumberWithLocale:@"pt_BR"];
+        NSNumber *actual = [@"R$ 2,50" currencyToNumberWithLocale:@"pt_BR"];
         NSNumber *expected = [NSNumber numberWithFloat:2.5];
         expect(expected).to.equal(actual);
     });
@@ -40,7 +40,7 @@ describe(@"Should parse arguments to a currencyFormatted String", ^{
     
     it(@"float arg with locale", ^{
         NSString *actual = [CPCurrencyUtil format:2.5 withLocaleID:@"pt_BR"];
-        NSString *expected = @"R$2,50";
+        NSString *expected = @"R$ 2,50";
         expect(expected).to.equal(actual);
     });
     

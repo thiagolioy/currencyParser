@@ -13,9 +13,11 @@
 
 +(NSString*)format:(float)value withLocaleID:(NSString*)localeID{
     NSNumber *number = [[NSNumber alloc] initWithFloat:value];
-    NSString *fomatted = [[CPCurrencyUtil setUpFormatter:localeID] stringFromNumber:number];
+    NSString *formatted = [[CPCurrencyUtil setUpFormatter:localeID] stringFromNumber:number];
+    if ([localeID isEqualToString:@"pt_BR"])
+        formatted = [formatted stringByReplacingOccurrencesOfString:@"R$" withString:@"R$ "];
     
-    return fomatted;
+    return formatted;
 }
 
 +(NSString*)format:(float)value{

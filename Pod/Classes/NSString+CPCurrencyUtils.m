@@ -14,6 +14,7 @@
     return [[CPCurrencyUtil setUpFormatter:nil] numberFromString:self];
 }
 -(NSNumber*)currencyToNumberWithLocale:(NSString*)localeID{
-    return [[CPCurrencyUtil setUpFormatter:localeID] numberFromString:self];
+    NSString *trimmedString = [self stringByReplacingOccurrencesOfString:@" " withString:@""];
+    return [[CPCurrencyUtil setUpFormatter:localeID] numberFromString:trimmedString];
 }
 @end
