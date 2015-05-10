@@ -14,15 +14,11 @@ SpecBegin(InitialSpecs)
 describe(@"Category on NSString to make it easy conver Formatted Currency String to numbers", ^{
     
     it(@"should convert from currency to number", ^{
-        NSNumber *actual = [@"$2.50" currencyToNumber];
-        NSNumber *expected = [NSNumber numberWithFloat:2.5];
-        expect(actual).to.equal(expected);
+        expect([@"$2.50" currencyToNumber]).to.equal(2.5);
     });
     
     it(@"should convert from currency to number", ^{
-        NSNumber *actual = [@"R$ 2,50" currencyToNumberWithLocale:@"pt_BR"];
-        NSNumber *expected = [NSNumber numberWithFloat:2.5];
-        expect(actual).to.equal(expected);
+        expect([@"R$ 2,50" currencyToNumberWithLocale:@"pt_BR"]).to.equal(2.5);
     });
     
     
@@ -32,16 +28,12 @@ describe(@"Category on NSString to make it easy conver Formatted Currency String
 describe(@"Should parse arguments to a currencyFormatted String", ^{
 
     it(@"float arg with default locale", ^{
-        NSString *actual = [CPCurrencyUtil format:2.5];
-        NSString *expected = @"$2.50";
-        expect(actual).to.equal(expected);
+        expect([CPCurrencyUtil format:2.5]).to.equal(@"$2.50");
     });
     
     
     it(@"float arg with locale", ^{
-        NSString *actual = [CPCurrencyUtil format:2.5 withLocaleID:@"pt_BR"];
-        NSString *expected = @"R$ 2,50";
-        expect(actual).to.equal(expected);
+        expect([CPCurrencyUtil format:2.5 withLocaleID:@"pt_BR"]).to.equal(@"R$ 2,50");
     });
     
 });
@@ -50,27 +42,19 @@ describe(@"Should parse arguments to a currencyFormatted String", ^{
 describe(@"Helper methods", ^{
     
     it(@"easier way to get default currencySymbol", ^{
-        NSString *actual = [CPCurrencyUtil currencySymbol];
-        NSString *expected = @"$";
-        expect(actual).to.equal(expected);
+        expect([CPCurrencyUtil currencySymbol]).to.equal(@"$");
     });
     
     it(@"easier way to get default currencyCode", ^{
-        NSString *actual = [CPCurrencyUtil currencyCode];
-        NSString *expected = @"USD";
-        expect(actual).to.equal(expected);
+        expect([CPCurrencyUtil currencyCode]).to.equal(@"USD");
     });
     
     it(@"should get the currencySymbol for specified locationID", ^{
-        NSString *actual = [CPCurrencyUtil currencySymbolFor:@"pt_BR"];
-        NSString *expected = @"R$";
-        expect(actual).to.equal(expected);
+        expect([CPCurrencyUtil currencySymbolFor:@"pt_BR"]).to.equal(@"R$");
     });
     
     it(@"should get the currencyCode for specified locationID", ^{
-        NSString *actual = [CPCurrencyUtil currencyCodeFor:@"pt_BR"];
-        NSString *expected = @"BRL";
-        expect(actual).to.equal(expected);
+        expect([CPCurrencyUtil currencyCodeFor:@"pt_BR"]).to.equal(@"BRL");
     });
     
 });
