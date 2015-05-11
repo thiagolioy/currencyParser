@@ -19,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E637A811B01481500FDEE4A /* CSCurrencyParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CSCurrencyParser.h; path = ../Pod/Classes/CSCurrencyParser.h; sourceTree = "<group>"; };
+		3E637A821B01481500FDEE4A /* CSCurrencyUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CSCurrencyUtil.h; path = ../Pod/Classes/CSCurrencyUtil.h; sourceTree = "<group>"; };
+		3E637A831B01481500FDEE4A /* CSCurrencyUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CSCurrencyUtil.m; path = ../Pod/Classes/CSCurrencyUtil.m; sourceTree = "<group>"; };
+		3E637A841B01481500FDEE4A /* NSString+CSCurrencyUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSString+CSCurrencyUtils.h"; path = "../Pod/Classes/NSString+CSCurrencyUtils.h"; sourceTree = "<group>"; };
+		3E637A851B01481500FDEE4A /* NSString+CSCurrencyUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSString+CSCurrencyUtils.m"; path = "../Pod/Classes/NSString+CSCurrencyUtils.m"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* currencyParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = currencyParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -52,9 +57,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E637A861B01484200FDEE4A /* CSCurrencyParser */ = {
+			isa = PBXGroup;
+			children = (
+				3E637A811B01481500FDEE4A /* CSCurrencyParser.h */,
+				3E637A821B01481500FDEE4A /* CSCurrencyUtil.h */,
+				3E637A831B01481500FDEE4A /* CSCurrencyUtil.m */,
+				3E637A841B01481500FDEE4A /* NSString+CSCurrencyUtils.h */,
+				3E637A851B01481500FDEE4A /* NSString+CSCurrencyUtils.m */,
+			);
+			name = CSCurrencyParser;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				3E637A861B01484200FDEE4A /* CSCurrencyParser */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
