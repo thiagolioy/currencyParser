@@ -12,18 +12,11 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		ACE6AEB91B01268B002351CA /* CSCurrencyParser.podspec in Resources */ = {isa = PBXBuildFile; fileRef = ACE6AEB81B01268B002351CA /* CSCurrencyParser.podspec */; };
-		ACE6AEBC1B01270D002351CA /* Pods-CSCurrencyParser.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = ACE6AEBA1B01270D002351CA /* Pods-CSCurrencyParser.debug.xcconfig */; };
-		ACE6AEBD1B01270D002351CA /* Pods-CSCurrencyParser.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = ACE6AEBB1B01270D002351CA /* Pods-CSCurrencyParser.release.xcconfig */; };
+		AC2B6EA21B0640940032D0D8 /* CSCurrencyParser.podspec in Resources */ = {isa = PBXBuildFile; fileRef = AC2B6EA11B0640940032D0D8 /* CSCurrencyParser.podspec */; };
 		E6D0BE3933FBA0ED17F55227 /* libPods-CSCurrencyParser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFEAF169492CC6A97F99D294 /* libPods-CSCurrencyParser.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3E637A811B01481500FDEE4A /* CSCurrencyParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CSCurrencyParser.h; path = ../Pod/Classes/CSCurrencyParser.h; sourceTree = "<group>"; };
-		3E637A821B01481500FDEE4A /* CSCurrencyUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CSCurrencyUtil.h; path = ../Pod/Classes/CSCurrencyUtil.h; sourceTree = "<group>"; };
-		3E637A831B01481500FDEE4A /* CSCurrencyUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CSCurrencyUtil.m; path = ../Pod/Classes/CSCurrencyUtil.m; sourceTree = "<group>"; };
-		3E637A841B01481500FDEE4A /* NSString+CSCurrencyUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSString+CSCurrencyUtils.h"; path = "../Pod/Classes/NSString+CSCurrencyUtils.h"; sourceTree = "<group>"; };
-		3E637A851B01481500FDEE4A /* NSString+CSCurrencyUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSString+CSCurrencyUtils.m"; path = "../Pod/Classes/NSString+CSCurrencyUtils.m"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* currencyParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = currencyParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -35,7 +28,7 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6071AF9345CC985FD224AFDB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		ACE6AEB81B01268B002351CA /* CSCurrencyParser.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CSCurrencyParser.podspec; sourceTree = "<group>"; };
+		AC2B6EA11B0640940032D0D8 /* CSCurrencyParser.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CSCurrencyParser.podspec; path = ../CSCurrencyParser.podspec; sourceTree = "<group>"; };
 		ACE6AEBA1B01270D002351CA /* Pods-CSCurrencyParser.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-CSCurrencyParser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CSCurrencyParser/Pods-CSCurrencyParser.debug.xcconfig"; sourceTree = "<group>"; };
 		ACE6AEBB1B01270D002351CA /* Pods-CSCurrencyParser.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-CSCurrencyParser.release.xcconfig"; path = "Pods/Target Support Files/Pods-CSCurrencyParser/Pods-CSCurrencyParser.release.xcconfig"; sourceTree = "<group>"; };
 		B5D06530F762CDCBD194D7B8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -57,22 +50,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3E637A861B01484200FDEE4A /* CSCurrencyParser */ = {
-			isa = PBXGroup;
-			children = (
-				3E637A811B01481500FDEE4A /* CSCurrencyParser.h */,
-				3E637A821B01481500FDEE4A /* CSCurrencyUtil.h */,
-				3E637A831B01481500FDEE4A /* CSCurrencyUtil.m */,
-				3E637A841B01481500FDEE4A /* NSString+CSCurrencyUtils.h */,
-				3E637A851B01481500FDEE4A /* NSString+CSCurrencyUtils.m */,
-			);
-			name = CSCurrencyParser;
-			sourceTree = "<group>";
-		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				3E637A861B01484200FDEE4A /* CSCurrencyParser */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
@@ -124,7 +104,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				ACE6AEB81B01268B002351CA /* CSCurrencyParser.podspec */,
+				AC2B6EA11B0640940032D0D8 /* CSCurrencyParser.podspec */,
 				6071AF9345CC985FD224AFDB /* README.md */,
 				B5D06530F762CDCBD194D7B8 /* LICENSE */,
 			);
@@ -169,7 +149,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = CP;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = thiagolioy;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
@@ -200,9 +180,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACE6AEBC1B01270D002351CA /* Pods-CSCurrencyParser.debug.xcconfig in Resources */,
-				ACE6AEBD1B01270D002351CA /* Pods-CSCurrencyParser.release.xcconfig in Resources */,
-				ACE6AEB91B01268B002351CA /* CSCurrencyParser.podspec in Resources */,
+				AC2B6EA21B0640940032D0D8 /* CSCurrencyParser.podspec in Resources */,
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
