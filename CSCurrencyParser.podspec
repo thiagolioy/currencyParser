@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "CSCurrencyParser"
-  s.version          = "0.1.2"
+  s.version          = "0.1.3"
   s.summary          = "Parse arguments into currency formmated strings"
   s.homepage         = "https://github.com/thiagolioy/currencyParser"
   s.license          = 'MIT'
