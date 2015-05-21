@@ -1,5 +1,6 @@
 # currencyParser
 
+[![Twitter: @tplioy](https://img.shields.io/badge/contact-@tplioy-blue.svg?style=flat)](https://twitter.com/tplioy)
 [![CI Status](http://img.shields.io/travis/thiagolioy/currencyParser.svg?style=flat)](https://travis-ci.org/thiagolioy/currencyParser)
 [![Version](https://img.shields.io/cocoapods/v/currencyParser.svg?style=flat)](http://cocoapods.org/pods/currencyParser)
 [![License](https://img.shields.io/cocoapods/l/currencyParser.svg?style=flat)](http://cocoapods.org/pods/currencyParser)
